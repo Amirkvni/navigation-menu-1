@@ -29,10 +29,24 @@ img {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 1rem 2rem;
+  justify-content: space-between;
 }
 .left_nav {
   height: 100%;
 }
 .box-img-logo {
   min-width: 50px;
+}
+.center_nav {
+  width: 50%;
+}
+.center_nav ul {
+  justify-content: space-between;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
