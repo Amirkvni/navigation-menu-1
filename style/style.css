@@ -5,6 +5,16 @@
 }
 body {
   background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.d-flex {
+  display: flex;
+}
+.align-item-center {
+  align-items: center;
+}
+img {
+  width: 100%;
 }
 .container {
   max-width: 1300px;
@@ -18,4 +28,11 @@ body {
   border-radius: 12px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 1rem 2rem;
+}
+.left_nav {
+  height: 100%;
+}
+.box-img-logo {
+  min-width: 50px;
 }
