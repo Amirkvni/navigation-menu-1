@@ -49,4 +49,22 @@ ul {
 }
 a {
   text-decoration: none;
+  color: black;
+}
+.right_nav {
+  width: 20%;
+  gap: 2rem;
+}
+.group_icon {
+  gap: 2.5rem;
+}
+.user_section {
+  gap: 1rem;
+}
+.profile_user {
+  width: 50px;
+  height: 50px;
+}
+.profile_user img {
+  border-radius: 100%;
 }
