@@ -68,3 +68,18 @@ a {
 .profile_user img {
   border-radius: 100%;
 }
+.status-connection {
+  width: 67px;
+  background-color: #edfdfa;
+  padding: 0.4rem;
+  border-radius: 3px;
+  text-align: center;
+  color: #1f927f;
+}
+.active {
+  background-image: linear-gradient(71deg, #3ac2ff 50%, #2f56ff);
+  color: #fff;
+  padding: 12px;
+  border-radius: 22px;
+  font-weight: bold;
+}
