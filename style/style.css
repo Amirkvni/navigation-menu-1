@@ -56,10 +56,12 @@ a {
 }
 .right_nav {
   /* width: 20%; */
-  gap: 2rem;
+  /* gap: 2rem; */
+  justify-content: end;
 }
 .group_icon {
   gap: 2.5rem;
+  margin-right: 2rem;
 }
 .user_section {
   gap: 1rem;

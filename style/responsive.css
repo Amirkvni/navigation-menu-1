@@ -1,0 +1,109 @@
+@media screen and (max-width: 999px) {
+  .box-img-logo {
+    min-width: 36px;
+  }
+  .section_logo h3 {
+    font-size: 0.9rem;
+  }
+  .center_nav ul li a {
+    font-size: 0.8rem;
+  }
+  .active {
+    padding: 6px;
+  }
+  .group_icon a svg {
+    width: 13px;
+  }
+  .status-connection {
+    width: 52px;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .profile_user {
+    width: 40px;
+    height: 40px;
+  }
+  .section_nav {
+    grid-template-columns: 3% 42% 24%;
+  }
+}
+#toggle_nav:checked + label + ul {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  -moz-transform: translateX(0);
+}
+#toggle_nav:checked + label span:first-child {
+  transform: rotate(127deg);
+  position: relative;
+  top: -4px;
+}
+#toggle_nav:checked + label span.line_mid {
+  transform: translateX(127deg);
+  opacity: 0;
+}
+#toggle_nav:checked + label span:last-child {
+  position: relative;
+  top: -15px;
+  transform: rotate(58deg);
+}
+@media screen and (min-width: 768px) {
+  .nav_mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .center_nav {
+    display: none;
+  }
+  .box-img-logo {
+    min-width: 27px;
+  }
+  .section_logo h3 {
+    font-size: 0.5rem;
+  }
+  .group_icon a svg {
+    width: 10px;
+  }
+  .group_icon {
+    gap: 1.4rem;
+    margin-right: 1rem;
+  }
+  .list_nav_mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: 200px;
+    transform: translateX(-350px);
+    height: 100%;
+    transition: all 250ms ease-out;
+    padding: 2rem 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    text-align: left;
+    overflow-x: hidden;
+  }
+  .status-connection {
+    width: 46px;
+    font-size: 0.5rem;
+  }
+  .line {
+    border-bottom: 2px solid;
+    width: 14px;
+    display: block;
+    margin-bottom: 3px;
+    transition: all 260ms ease-in-out;
+  }
+  .section_nav {
+    grid-template-columns: 3% 89% 3%;
+    padding: 1rem;
+  }
+  .label_toggle_nav {
+    position: relative;
+    top: 16px;
+  }
+}
